@@ -1,5 +1,11 @@
 # Changelog
 
+### [1.0.2](https://github.com/b2broker/tsconfig/compare/v1.0.1...v1.0.2) (2020-11-05)
+
+### Performance Improvements
+
+- move the config to the `tsconfig.json` file ([65f114e](https://github.com/b2broker/tsconfig/commit/65f114e0cbf1cc2d388726592defa3c8d4bbd1d7))
+
 ### [1.0.1](https://github.com/b2broker/tsconfig/compare/v1.0.0...v1.0.1) (2020-11-05)
 
 ### Bug Fixes
