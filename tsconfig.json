@@ -3,7 +3,6 @@
     "target": "esnext",
     "module": "commonjs",
     "declaration": true,
-    "outDir": "./build",
     "newLine": "lf",
     "strict": true,
     "noUnusedLocals": true,
