@@ -1,0 +1,23 @@
+# GitHub folder
+.github/
+
+# Commitlint config - https://commitlint.js.org/
+.commitlintrc.json
+
+# ESLint config - https://eslint.org/
+.eslintrc.json
+
+# husky config - https://github.com/typicode/husky
+.huskyrc.json
+
+# lint-staged config - https://github.com/okonet/lint-staged
+.lintstagedrc.json
+
+# semantic-release config - https://semantic-release.gitbook.io/semantic-release/
+.releaserc.json
+
+# Code of Conduct
+CODE_OF_CONDUCT.md
+
+# TypeScript config - https://www.typescriptlang.org/tsconfig
+tsconfig.json
