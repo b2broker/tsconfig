@@ -1,5 +1,11 @@
 # Changelog
 
+### [1.0.1](https://github.com/b2broker/tsconfig/compare/v1.0.0...v1.0.1) (2020-11-05)
+
+### Bug Fixes
+
+- update npm publish config ([5005628](https://github.com/b2broker/tsconfig/commit/50056281babb779b8c64458489d952d1c55b0ebf))
+
 ## 1.0.0 (2020-11-05)
 
 ### Features
