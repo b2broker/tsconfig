@@ -1,5 +1,11 @@
 # Changelog
 
+### [1.0.3](https://github.com/b2broker/tsconfig/compare/v1.0.2...v1.0.3) (2020-11-05)
+
+### Bug Fixes
+
+- remove `outDir` from the config ([10ca42f](https://github.com/b2broker/tsconfig/commit/10ca42fb5bee53e3bf5de434774908ffeddf2993))
+
 ### [1.0.2](https://github.com/b2broker/tsconfig/compare/v1.0.1...v1.0.2) (2020-11-05)
 
 ### Performance Improvements
