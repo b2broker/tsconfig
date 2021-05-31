@@ -6,11 +6,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node: [14, 15]
-
-    container: node:${{ matrix.node }}-alpine
+    container: node:16-buster
 
     steps:
       - uses: actions/checkout@main
