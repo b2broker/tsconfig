@@ -6,14 +6,15 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
-    strategy:
-      matrix:
-        node: [14, 15]
-
-    container: node:${{ matrix.node }}-alpine
-
     steps:
       - uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@main
+        with:
+          node-version: 16
+          check-latest: true
 
       - name: Install dependencies
         run: npm ci
@@ -37,8 +38,6 @@ jobs:
 
     steps:
       - uses: actions/checkout@main
-        with:
-          fetch-depth: 0
 
       - uses: actions/setup-node@main
         with:
