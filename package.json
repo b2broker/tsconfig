@@ -37,13 +37,13 @@
   "homepage": "https://github.com/b2broker/tsconfig#readme",
   "devDependencies": {
     "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/git": "^9.0.1",
     "commitlint-config-b2broker": "^1.0.5",
     "eslint-config-b2broker-ts": "^1.0.4",
-    "husky": "^7.0.1",
+    "husky": "^7.0.2",
     "lint-staged": "^11.1.2",
-    "prettier": "^2.3.2",
-    "semantic-release": "^17.4.4"
+    "prettier": "^2.4.0",
+    "semantic-release": "^17.4.7"
   },
   "publishConfig": {
     "access": "public"
